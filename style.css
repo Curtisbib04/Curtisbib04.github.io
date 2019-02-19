@@ -60,3 +60,6 @@ li:hover{
 	color: #E21616;
 	box-shadow: 5px 5px 3px black;
 }
+img {
+	width: 300px;
+}
