@@ -1,0 +1,62 @@
+body{
+	background-color: #6323A5;
+	font-family: 'Charmonman', cursive;
+}
+
+h1{
+	color: #EC1B1B;
+}
+
+div{
+	background-color: #EBED21;
+	padding: 5px 5px 5px 5px;
+	margin: 0 0 3px 0;
+}
+
+span{
+	transition: 1s;
+}
+
+span:hover{
+	background-color: #3F8FB9;
+	box-shadow: 5px 5px 3px #494747;
+}
+
+p{
+	background-color: #42C51A;
+	transition: 1s;
+	font-size: 18px;
+	padding: 5px 5px 5px 5px;
+}
+p:hover{
+	text-shadow: 0 0 3px black;
+	background-color: white;
+	box-shadow:  5px 5px 3px #494747;
+}
+
+h2{
+	background-color: #42C51A;
+	text-align: center;
+	border: 5px solid purple;
+	border-radius: 10px;
+	transition: 1s;
+}
+h2:hover{
+	text-shadow: 0px 0px 5px black;
+	border-radius: 30px;
+	background-color: white;
+	box-shadow: 5px 5px 3px #494747;
+	color: red;
+}
+
+li{
+	background-color: #42C51A;
+	margin: 0 0 3px 0;
+	padding: 0 0 0 4px;	
+	transition: 1s;
+}
+li:hover{
+	background-color: #464646;
+	color: #E21616;
+	box-shadow: 5px 5px 3px black;
+}
