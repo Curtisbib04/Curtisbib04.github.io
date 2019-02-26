@@ -1,6 +1,7 @@
+
 body{
 	background-color: #6323A5;
-	font-family: 'Charmonman', cursive;
+	font-family: 'Pacifico', cursive;
 }
 
 h1{
@@ -27,6 +28,7 @@ p{
 	transition: 1s;
 	font-size: 18px;
 	padding: 5px 5px 5px 5px;
+	text-align: justify;
 }
 p:hover{
 	text-shadow: 0 0 3px black;
@@ -62,4 +64,8 @@ li:hover{
 }
 img {
 	width: 300px;
+}
+.baclGround{
+	background-color: black !important; 
+	color: white;
 }
