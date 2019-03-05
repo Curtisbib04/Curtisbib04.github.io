@@ -1,5 +1,10 @@
 myForm.enabled[myForm.enabled.length-1].checked = true;
 
+function word(word1, word2) {
+	var result = "First word is: " + word1 + "Second word is: " + word2;
+	alert(result);
+}
+	
 function click(e){
 	if (e.target.value == 1) {
 		// alert("Светлая тема выбрана!");
