@@ -1,7 +1,9 @@
+myForm.enabled[myForm.enabled.length-1].checked = true;
+
 function click(e){
 	if (e.target.value == 1) {
 		// alert("Светлая тема выбрана!");
-		document.getElementById('navBar').className = "navbar navbar-light bg-light";
+		document.getElementById('navBar').className = "navbar navbar-light bg-light colorDark";
 
 
 		document.getElementById('this').className = "baclGroundLight colorDark";
@@ -15,7 +17,7 @@ function click(e){
 
 	}else if(e.target.value == 2) {
 		// alert("Темная тема выбрана!");
-		document.getElementById('navBar').className = "navbar navbar-dark bg-dark";
+		document.getElementById('navBar').className = "navbar navbar-dark bg-dark colorLight";
 
 		document.getElementById('this').className = "baclGroundDark colorLight";
 		document.getElementById('id_H2_1').className = "baclGroundDark colorLight";
